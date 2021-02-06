@@ -17,3 +17,5 @@ Trained model is tested against actual product reviews taken from [Skroutz](http
 ##### You can use create a new conda environment using the requirements.txt file:
 
     conda create --name <env> --file requirements.txt
+
+[Jupyter Notebook Viewer link](https://nbviewer.jupyter.org/github/JoKoum/Machine-Learning-Project/blob/main/Analyze-review-sentiment.ipynb)
