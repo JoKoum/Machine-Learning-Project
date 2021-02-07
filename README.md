@@ -14,10 +14,19 @@ Trained model is tested against actual product reviews taken from [Skroutz](http
 
     git clone https://github.com/JoKoum/Machine-Learning-Project.git
      
-##### You can create a new conda environment using the requirements.txt file:
+##### You can create a new virtual environment and install the dependencies using the requirements.txt file:
+On macOS and Linux:
 
-    conda create --name <env> --file requirements.txt
+    python3 -m venv <env>
 
-##### or use [pip and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+On Windows:
+
+    py - m venv <env>
+
+Package installation using requirements.txt file:
+
+    pip install -r requirements.txt
+
+##### more info in [pip and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 [Jupyter Notebook Viewer link](https://nbviewer.jupyter.org/github/JoKoum/Machine-Learning-Project/blob/main/Analyze-review-sentiment.ipynb)
